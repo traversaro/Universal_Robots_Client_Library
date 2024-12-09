@@ -21,7 +21,6 @@
 #pragma once
 
 #include <assert.h>
-#include <endian.h>
 #include <inttypes.h>
 #include <array>
 #include <bitset>
@@ -32,6 +31,7 @@
 #include "ur_client_library/log.h"
 #include "ur_client_library/types.h"
 #include "ur_client_library/exceptions.h"
+#include "ur_client_library/portable_endian.h"
 
 namespace urcl
 {

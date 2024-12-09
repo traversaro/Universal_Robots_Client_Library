@@ -35,7 +35,7 @@
 #include "ur_client_library/log.h"
 #include "ur_client_library/ur/robot_receive_timeout.h"
 #include <cstring>
-#include <endian.h>
+#include <ur_client_library/portable_endian.h>
 #include <condition_variable>
 
 namespace urcl
